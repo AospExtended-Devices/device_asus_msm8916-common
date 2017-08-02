@@ -638,6 +638,8 @@ service rmt_storage /vendor/bin/rmt_storage
     class core
     user root
     group system wakelock
+    writepid /dev/cpuset/system-background/tasks
+    shutdown critical
 
 service hciattach /vendor/bin/hci_qcomm_init -e
     class late_start
