@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "theimpulson",
+    "repository": "android_kernel_asus_msm8916",
+    "target_path": "kernel/nokia/sdm660",
+    "revision": "fire-oss"
+  }
+]
